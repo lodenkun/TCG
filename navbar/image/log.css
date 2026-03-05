@@ -1,0 +1,49 @@
+body {
+  background: black; /* Dark background */
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100-vh;
+  margin: 0;
+}
+
+.login-box {
+  width: 350px;
+  padding: 40px;
+  background: #252525; /* Slightly lighter dark background */
+  border: 1px solid; #1a1a2e; /* Dark border */
+    border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-box input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background: #1a1a2e; /* Dark button */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-box input[type="submit"]:hover {
+  background: #0f3460; /* Hover effect for button */
+}
+
