@@ -1,0 +1,129 @@
+.timetable{
+            /* border: 1px solid red; */
+            width: 849px;
+        
+        }
+        .header{
+            text-align: center;
+            font-size: 10px;
+            width: 70%;
+            height: 70%;
+        }
+        .maindiv{
+            border: 1px solid purple;
+            width: 100%;
+            height: 100%;
+        }
+        h1{
+            width: 850px;
+        }
+        .day{
+           border: 1px solid;
+           text-align: center;
+              width: 140px;
+        }
+        .time{
+            border: 1px solid;
+            text-align: center;
+             width: 140px;
+        }
+        .secondclass{
+           border: 1px solid;
+           text-align: center;
+          width: 140px;
+        }
+        .threeclass{
+          border: 1px solid;
+          text-align: center;
+          width: 140px;
+        }
+        .fourclass{
+         border: 1px solid;
+         text-align: center;
+           width: 140px;
+        }
+        .fiveclass{
+          border: 1px solid;
+          text-align: center;
+            width: 140px;
+        }
+        .navbar{
+            display: flex;
+        }
+                             /* monday start here  */
+        .firstday{
+             /* border: 1px solid; */
+          /* text-align: center; */
+            /* width: 921px; */
+        }
+        .mont{
+             border: 1px solid;
+          text-align: center;
+            width: 140px;
+        }
+        .monsecond{
+             border: 1px solid;
+          text-align: center;
+            width: 140px;
+        }
+        .monthird{
+             border: 1px solid;
+          text-align: center;
+            width: 140px;
+        }
+        .monfour{
+             border: 1px solid;
+          text-align: center;
+            width: 140px;
+        }
+        .monfive{
+             border: 1px solid;
+          text-align: center;
+            width: 140px;
+        }
+        .firstday{
+            display: flex;
+            width: 847px;
+            margin-left: 2px;
+        }
+        .mon{
+            width: 140px;
+            text-align: center;
+        }
+                                 /* tuesday start here  */
+        .tuefive{
+             border: 1px solid;
+          text-align: center;
+            width: 140px;
+        }
+        .tuefour{
+             border: 1px solid;
+          text-align: center;
+            width: 140px;
+        }
+        .tuethird{
+             border: 1px solid;
+          text-align: center;
+            width: 140px;
+        }
+        .tuesecond{
+              border: 1px solid;
+          text-align: center;
+            width: 140px;
+        }
+        .tuet{
+              border: 1px solid;
+          text-align: center;
+            width: 140px;
+        }
+        .tue{
+                border: 1px solid;
+          text-align: center;
+            width: 140px;
+        }
+        .secondday{
+            display: flex;
+        }
+                              /* wednesday start here  */
+        .wedfive{
+               border: 1px solid;

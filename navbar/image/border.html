@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border class</title>
+    <style>
+        body {
+             /* background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg); */
+             /* background-repeat: no-repeat; */
+                 /* background-size: cover;  */
+        }
+        h1 {
+            display: inline-block;
+            border: 10px solid black;
+            /* the inline block which blocks the flow of elements 
+            and it also influences the layout like by margin and padding
+            span is inline element p tag is a block element and h1 is a block element */
+            border-radius: 50px;
+            /* it is used to make the border round */
+            border-color: red green blue yellow;
+            /* it is used to give different colors to the border */
+            padding: 10px;
+            /* it is used to give space between the content and the border */
+            margin: 20px; 
+            /* it is used to give space between the border and the other elements */
+             border-top-right-radius: 10px;
+             /* it is used to give different radius to different corners of the border */
+             border-bottom-left-radius: 10px;
+                   
+        }
+        h1:hover {
+            border-color: green;
+            /* it is used to change the color of the border when we hover over the element */
+        }
+        border {
+            border: 1px solid black;
+            /* it is used to give a border to the element */
+        }
+         span {
+            border: 1px solid black;
+            /* it is used to give a border to the element */
+        }
+         .border {
+            background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+            background-repeat: no-repeat;
+            background-size: 100px 100px;        
+                border: 1px solid black;
+                /* it is used to give a border to the element */
+                width: 500px;
+                height: 600px;
+                /* it is used to give a width and height to the element */
+                background-position: 50% 50%;
+                /* it is used to position the background image in the center of the element */
+                overflow-y: auto;
+                /* i have learned these today about hover and image position and things about the size border. */
+
+        }
+
+        div>p {
+            font-size: large;
+            
+        }
+        a: link {
+            color: red;
+            /* it is used to change the color of the link */
+        }
+        a: visited {
+            color: green;
+            /* it is used to change the color of the link when it is visited */
+        }
+        a: hover {
+            color: blue;
+            /* it is used to change the color of the link when we hover over it */
+        }
+         a: active {
+            color: yellow;
+            /* it is used to change the color of the link when it is active */
+        }
+
+    </style>
+</head>
+<body>
+<h1>hello world</h1>
+<span>This is a span with a border</span>
+<div class="border">
+    <p>This is a div with a border</p>
+    
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- so the things we learned today is outline and many things like link background and so on and on so
+ so we learned on text align like left right center also justify -->

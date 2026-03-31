@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+        display: flex;
+       } 
+       .img{
+        position: relative;
+        display: flex;
+       }
+       .secondimg{
+          display: none;
+        position: absolute;
+        left: 0px;
+        width: 200px;
+       }
+       .img:hover .secondimg{
+        display: block;
+       }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="content">
+            <span>check this:</span>
+        </div>
+    </div>
+        <div class="img">
+            <img src="./OIP.jpg" 
+            width="50px"
+            height="32px"
+            alt="">
+            <div class="secondimg">
+                <img src="./OIP.jpg"
+               
+                alt="">
+            </div>
+        </div>
+
+   
+</body>
+</html>

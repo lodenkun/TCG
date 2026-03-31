@@ -1,0 +1,12 @@
+.trial {
+    background-color: lightgray;
+    padding: 20px;
+}
+/*wht i learned in the class are about border spcae and border pixel properties
+and selectore types like .class, #id, element *also about grouping selector/
+*and universal selector and combinator selector and pseudo class selector and pseudo element selector*/
+ /* the way i do it in my way is that i do it by the things which influences others */
+ .body{
+    background-color: lightblue;
+ }
+ 

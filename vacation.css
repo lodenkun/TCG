@@ -1,0 +1,130 @@
+
+            .body {
+                margin: 0;
+                padding: 0;
+                background-color: gray;
+                font-family: Arial, sans-serif;
+            }
+
+            .container {
+                width: 100%;
+                height: 100%;
+                
+            }
+            .text-overlay {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                text-align: center;
+            }
+            .container .img {
+                width: 60px;
+                height: 40px;
+                object-fit: fill;
+            }
+
+body {
+    background-color: #f4f4f4; /* Gray background makes the white blocks pop */
+    margin: 0;
+    padding: 50px 0;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+/* This line centers everything and sets the width */
+.main-container {
+    max-width: 980px; /* Adjust this to make the whole site wider or narrower */
+    margin: 0 auto;   /* Centers the container horizontally */
+}
+
+/* This creates the gap between each section */
+
+.flex-grid {
+    display: flex; /* Sets up the side-by-side layout */
+}
+
+/* Teal Box Styles */
+.teal-title-box, .teal-bio-box {
+    background-color: #5b8c8c;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.teal-bio-box { 
+    align-items: flex-start; 
+    text-align: left; flex: 1.5; 
+}
+
+/* Image Sizing to match proportions */
+.img-large { flex: 2; }
+.img-small, .img-square { flex: 1; }
+
+img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* Text Alignment for the info cards */
+.text-card-box, .intro-text {
+    flex: 2;
+    padding: 60px;
+    text-align: center;
+    color: #666;
+    line-height: 1.6;
+}
+
+.gold-line { width: 30px; height: 1px; background: #c4a457; margin: 15px; }
+.gold-line-left { width: 30px; height: 1px; background: #c4a457; margin: 15px 0; }
+
+/* This centers the entire site and makes it smaller */
+.main-wrapper {
+    max-width: 980px; 
+    margin: 40px auto; /* Centers horizontally and adds top/bottom space */
+}
+
+/* This creates the gap between each block */
+.section-row {
+    margin-bottom: 40px; 
+    background-color: white;
+}
+
+.flex-grid {
+    display: flex;
+}
+
+/* Teal Box Styles */
+.teal-box {
+    background-color: #5b8c8c;
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.bio-text { align-items: flex-start; text-align: left; flex: 1.5; }
+
+/* Flex Ratios for Image sizes */
+.image-box-2x { flex: 2; }
+.image-box-1x { flex: 1; }
+
+img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* Text Area Styles */
+.white-text-box, .text-center {
+    flex: 2;
+    padding: 60px;
+    text-align: center;
+    color: #777;
+    line-height: 1.8;
+}
+
+.gold-divider { width: 35px; height: 1px; background: #c4a457; margin: 15px auto; }
+.gold-divider-left { width: 35px; height: 1px; background: #c4a457; margin: 15px 0; }
